@@ -612,6 +612,10 @@ section {
   font-family: var(--font-secondary);
 }
 
+.about span {
+  color: var(--color-secondary);
+}
+
 .about .call-us {
   left: 10%;
   right: 10%;
@@ -964,6 +968,11 @@ section {
   background: #fff;
   height: 100%;
   border-radius: 10px;
+}
+
+.services span {
+  color: var(--color-secondary);
+  
 }
 
 .services .service-item .icon {
