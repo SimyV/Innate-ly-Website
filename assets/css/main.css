@@ -58,7 +58,7 @@ section {
 
 .section-header {
   text-align: center;
-  padding-bottom: 60px;
+  padding-bottom: 40px;
 }
 
 .section-header h2 {
@@ -328,6 +328,23 @@ section {
   scroll-margin-top: 70px;
 }
 
+.hero h5 {
+  margin: 0 0 3% 0;
+}
+
+.hero .header-hero {
+  color: white;
+  font-size: 18px;
+}
+
+.hero .btn-get-started {
+  margin: 3% 0 3% 0;
+}
+
+.hero .container {
+  margin-bottom: 100px;
+}
+
 /*--------------------------------------------------------------
 # Desktop Navigation
 --------------------------------------------------------------*/
@@ -346,6 +363,7 @@ section {
 
   .navbar li {
     position: relative;
+    
   }
 
   .navbar>ul>li {
@@ -405,7 +423,7 @@ section {
   .navbar .dropdown ul {
     display: block;
     position: absolute;
-    left: 28px;
+    left: -28px;
     top: calc(100% + 30px);
     margin: 0;
     padding: 10px 0;
@@ -448,25 +466,15 @@ section {
 
   .navbar .dropdown .dropdown ul {
     top: 0;
-    left: calc(100% - 30px);
+    left: -200%;
     visibility: hidden;
   }
 
   .navbar .dropdown .dropdown:hover>ul {
     opacity: 1;
     top: 0;
-    left: 100%;
+    left: -150%;
     visibility: visible;
-  }
-}
-
-@media (min-width: 1280px) and (max-width: 1366px) {
-  .navbar .dropdown .dropdown ul {
-    left: -90%;
-  }
-
-  .navbar .dropdown .dropdown:hover>ul {
-    left: -100%;
   }
 }
 
@@ -487,7 +495,7 @@ section {
     top: 0;
     right: -100%;
     width: 100%;
-    max-width: 400px;
+    max-width: 600px;
     bottom: 0;
     transition: 0.3s;
     z-index: 9997;
@@ -496,9 +504,9 @@ section {
   .navbar ul {
     position: absolute;
     inset: 0;
-    padding: 50px 0 10px 0;
+    padding: 50px 0px 10px 0;
     margin: 0;
-    background: rgba(0, 131, 116, 0.9);
+    background: rgb(0, 131, 116);
     overflow-y: auto;
     transition: 0.3s;
     z-index: 9998;
@@ -509,7 +517,7 @@ section {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 20px;
+    padding: 10px 40px 10px 20px;
     font-family: var(--font-primary);
     font-size: 15px;
     font-weight: 600;
@@ -554,8 +562,7 @@ section {
     padding: 10px 0;
     margin: 10px 20px;
     transition: all 0.5s ease-in-out;
-    background-color: #007466;
-    border: 1px solid #006459;
+
   }
 
   .navbar .dropdown>.dropdown-active,
@@ -580,7 +587,7 @@ section {
     line-height: 0;
     transition: 0.5s;
     position: fixed;
-    right: 20px;
+    right: 30px;
     top: 20px;
     z-index: 9999;
   }
@@ -602,6 +609,24 @@ section {
   }
 }
 
+@media (max-width: 520px) {
+  .navbar a,
+  .navbar a:focus {
+    font-size: 12px;
+    padding: 3px 40px 3px 15px;
+  }
+}
+@media (max-width: 380px) {
+  .navbar a,
+  .navbar a:focus {
+    font-size: 10.75px;
+    padding: 3px 40px 3px 15px;
+  }
+  .navbar .dropdown ul, .navbar .dropdown .dropdown ul {
+    margin: 3px 0px 3px 10px;
+  }
+}
+
 /*--------------------------------------------------------------
 # About Us Section
 --------------------------------------------------------------*/
@@ -612,8 +637,33 @@ section {
   font-family: var(--font-secondary);
 }
 
+.quotes em{
+  font-family: var(--font-primary);
+  text-align: center;
+  display: flex;
+  font-size: 25px;
+  margin: 20px 60px;
+}
+
+.about .source-text {
+  font-family: var(--font-primary);
+  font-size: 12px;
+}
+
+.about .row {
+  margin: 30px;
+}
+
 .about span {
   color: var(--color-secondary);
+}
+
+.about .header-strategy {
+  margin-top: 30px;
+}
+
+.about .body-strategy {
+  margin-top: 30px;
 }
 
 .about .call-us {
@@ -733,6 +783,27 @@ section {
   transform: scale(20);
 }
 
+.about .btn-get-started {
+  font-family: var(--font-primary);
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 40px 8px 40px;
+  margin: 0px 0px 30px 0px;
+  border-radius: 5px;
+  transition: 0.3s;
+  color: #fff;
+  background: var(--color-primary);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.08);
+  
+}
+
+.about .btn-get-started:hover {
+  border-color: rgba(255, 255, 255, 0.5);
+  background-color: #0a5356a7;
+}
+
 @-webkit-keyframes pulsate-btn {
   0% {
     transform: scale(0.6, 0.6);
@@ -757,11 +828,12 @@ section {
   }
 }
 
+
 /*--------------------------------------------------------------
 # Clients Section
 --------------------------------------------------------------*/
 .clients {
-  padding: 40px 0;
+  padding: 40px;
 }
 
 .clients .swiper {
@@ -960,7 +1032,7 @@ section {
 # Our Services Section
 --------------------------------------------------------------*/
 .services {
-  padding: 60px 0;
+  padding: 40px 0;
 }
 
 .services .service-item {
@@ -1136,6 +1208,7 @@ section {
     position: static;
     left: auto;
   }
+
 }
 
 /*--------------------------------------------------------------
