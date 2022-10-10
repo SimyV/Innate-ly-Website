@@ -1,9 +1,4 @@
-/**
-* Template Name: Impact - v1.0.0
-* Template URL: https://bootstrapmade.com/impact-bootstrap-business-website-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+
 document.addEventListener('DOMContentLoaded', () => {
   "use strict";
 
@@ -169,11 +164,11 @@ document.addEventListener('DOMContentLoaded', () => {
         spaceBetween: 40
       },
       480: {
-        slidesPerView: 3,
+        slidesPerView: 2,
         spaceBetween: 60
       },
       640: {
-        slidesPerView: 4,
+        slidesPerView: 3,
         spaceBetween: 80
       },
       992: {
