@@ -917,6 +917,41 @@ main .custom-shape-divider-top-1665012168 .shape-fill {
   }
 }
 
+@media (max-width: 1400px) {
+  .about h3 {
+    font-size: 22px;
+    margin-bottom: 16px;
+  }
+  .about p {
+    font-size:14px;
+  }
+  .about li {
+    font-size:17px;
+  }
+
+  .about #about-pc-img {
+    
+  }
+
+  .about #about-mc-img {
+    
+  }
+
+  .about #about-ep-img {
+    
+  }
+  
+}
+
+@media (max-width: 400px) {
+  .about #about-pc {
+    flex-direction: column-reverse;
+  }
+  .about #about-ep {
+    flex-direction: column-reverse;
+  }
+}
+
 
 /*--------------------------------------------------------------
 # Clients Section
