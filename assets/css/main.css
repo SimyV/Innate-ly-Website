@@ -72,6 +72,11 @@ section {
   padding-bottom: 40px;
 }
 
+.section-header .events-h2,
+.section-header .events-h5 {
+  text-align: left;
+}
+
 .section-header h2 {
   font-size: 32px;
   font-weight: 600;
@@ -91,6 +96,10 @@ section {
   right: 0;
   bottom: 0;
   margin: auto;
+}
+
+.section-header .events-h2:after {
+  margin: 0;
 }
 
 .section-header p {
@@ -249,7 +258,7 @@ section {
 --------------------------------------------------------------*/
 .topbar {
   background: var(--color-primary);
-  height: 40px;
+
   font-size: 14px;
   transition: all 0.5s;
   color: #fff;
@@ -266,6 +275,9 @@ section {
 .topbar .contact-info i span {
   padding-left: 5px;
   color: #fff;
+}
+.topbar .social-links .facebook {
+  margin-left: 0;
 }
 
 @media (max-width: 575px) {
@@ -291,6 +303,15 @@ section {
   line-height: 0;
   transition: 0.3s;
   margin-left: 20px;
+  padding-top: 10px
+}
+.topbar .social-links {
+  background-color: var(--color-default);
+  padding: 60px;
+  padding-bottom: 20px;
+  padding-top: 0;
+  box-shadow: 0 0 15px rgb(0 0 0 / 8%);
+  border-radius: 0 0 40px 40px;
 }
 
 .topbar .social-links a:hover {
@@ -348,19 +369,21 @@ section {
 }
 
 .hero h2  {
-  margin: 5% 15% 5% 15%;
+  margin: 5% 15% 3% 15%;
 }
 
 .hero  h3 {
-  margin: 2% 20% 0 20%;
-}
-
-.hero .header-hero {
+  margin: 2% 15% 2% 15%;
   color: rgb(204, 204, 204);
 }
 
-.hero h3 {
-  color: rgb(204, 204, 204);
+.hero .hero-free {
+  text-decoration: underline;
+}
+
+.hero h6 {
+  color: rgba(255, 255, 255, 0.805);
+  margin: 2% 25% 2% 25%;
 }
 
 .hero .btn-get-started {
@@ -370,7 +393,7 @@ section {
   letter-spacing: 1px;
   display: inline-block;
   padding: 8px 40px 8px 40px;
-  margin: 60px 0px 300px 0px;
+  margin: 30px 0px 300px 0px;
   border-radius: 5px;
   transition: 0.3s;
   color: #fff;
