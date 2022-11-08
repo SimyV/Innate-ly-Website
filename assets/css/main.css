@@ -72,6 +72,20 @@ section {
   padding-bottom: 40px;
 }
 
+.services .section-header-pad {
+  padding: 0;
+  margin: 0;
+}
+
+.services .product-img {
+  box-shadow: 0px 0 20px rgb(0 0 0 / 50%)
+}
+
+.services .product-img:hover {
+  box-shadow:  0px 0 70px rgb(0 0 0 / 80%);
+}
+
+
 .section-header .events-h2,
 .section-header .events-h5 {
   text-align: left;
@@ -749,6 +763,15 @@ main .custom-shape-divider-top-1665012168 .shape-fill {
   font-family: var(--font-secondary);
 }
 
+.about .sections-bg-tailor {
+  background: rgb(80, 86, 10);
+  background: radial-gradient(circle, rgba(10,84,86,1) 0%, rgba(10,84,86,1) 50%, rgba(10,84,86,0.8183648459383753) 100%);
+}
+
+.about .tailor-color {
+  color: #fff;
+}
+
 .quotes em{
   font-family: var(--font-primary);
   text-align: center;
@@ -768,10 +791,6 @@ main .custom-shape-divider-top-1665012168 .shape-fill {
 
 .about span {
   color: var(--color-secondary);
-}
-
-.about .header-strategy {
-  margin-top: 30px;
 }
 
 .about .body-strategy {
@@ -895,6 +914,10 @@ main .custom-shape-divider-top-1665012168 .shape-fill {
   transform: scale(20);
 }
 
+.about .bullet-titles {
+  color:#2c2c2cbb;
+}
+
 .about .btn-get-started {
   font-family: var(--font-primary);
   font-weight: 500;
@@ -946,22 +969,10 @@ main .custom-shape-divider-top-1665012168 .shape-fill {
     margin-bottom: 16px;
   }
   .about p {
-    font-size:14px;
+    font-size:16px;
   }
   .about li {
-    font-size:17px;
-  }
-
-  .about #about-pc-img {
-    
-  }
-
-  .about #about-mc-img {
-    
-  }
-
-  .about #about-ep-img {
-    
+    font: size 14px;
   }
   
 }
@@ -981,6 +992,10 @@ main .custom-shape-divider-top-1665012168 .shape-fill {
 --------------------------------------------------------------*/
 .clients {
   padding: 40px;
+}
+
+.clients span {
+  color: var(--color-secondary)
 }
 
 .clients .swiper {
@@ -1187,6 +1202,11 @@ main .custom-shape-divider-top-1665012168 .shape-fill {
   padding: 40px 0;
 }
 
+.services .tailored-solution {
+  margin: 5% 0 15% 0;
+  font-family: var(--color-default);
+}
+
 .services .service-item {
   padding: 40px;
   background: #fff;
@@ -1198,6 +1218,15 @@ main .custom-shape-divider-top-1665012168 .shape-fill {
   color: var(--color-secondary);
   
 }
+
+.about .compassionate-communication li {
+  color: var(--color-default);
+  font-family: var(--font-default);
+  font-size: 17px;
+
+}
+
+
 
 .services .service-item .icon {
   width: 48px;
@@ -1270,6 +1299,10 @@ main .custom-shape-divider-top-1665012168 .shape-fill {
 --------------------------------------------------------------*/
 .testimonials .testimonial-wrap {
   padding-left: 10px;
+}
+
+.testimonials span {
+  color: var(--color-secondary);
 }
 
 .testimonials .testimonial-item {
@@ -1637,6 +1670,10 @@ main .custom-shape-divider-top-1665012168 .shape-fill {
   box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.1);
 }
 
+.team span {
+  color: var(--color-secondary);
+}
+
 .team .member img {
   border-radius: 10px;
   overflow: hidden;
@@ -1696,6 +1733,11 @@ main .custom-shape-divider-top-1665012168 .shape-fill {
   font-size: 18px;
   margin: 0 2px;
 }
+
+@media (min-width: 1200px) {
+  .team .col-xl-3 {
+    width: 33.33%
+  }
 
 /*--------------------------------------------------------------
 # Pricing Section
@@ -1989,6 +2031,10 @@ main .custom-shape-divider-top-1665012168 .shape-fill {
   color: #fff;
 }
 
+.contact span {
+  color: var(--color-secondary);
+}
+
 .contact .info-item:last-child {
   margin-bottom: 0;
 }
@@ -2257,6 +2303,8 @@ main .custom-shape-divider-top-1665012168 .shape-fill {
     background-color: #fff;
   }
 }
+
+
 
 .hero .icon-box {
   padding: 60px 30px;
