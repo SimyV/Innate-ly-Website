@@ -44,6 +44,16 @@ h6 {
   font-family: var(--font-primary);
 }
 
+hr {
+  margin-top: 60px;
+  margin-bottom: 20px;
+  margin-left: 48%;
+  border-style: none;
+  border-top: 10px dotted #020d0d;
+  height: 50%;
+  width: 4%;
+}
+
 p {
   font-family: var(--font-default);
   color: #2c2c2cbb;
@@ -59,7 +69,7 @@ body .dark-p {
 # Sections & Section Header
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 50px 0;
   overflow: hidden;
 }
 
@@ -89,7 +99,18 @@ section {
 
 .section-header .events-h2,
 .section-header .events-h5 {
-  text-align: left;
+  text-align: left; 
+}
+
+.section-header .events-h2 {
+  padding-top: 80px;
+  color: var(--color-secondary);
+}
+
+.section-header .events-h5 {
+  color: #2c2c2cbb;
+  font-family: var(--color-default);
+  font-weight: 450;
 }
 
 .section-header h2 {
@@ -120,6 +141,33 @@ section {
 .section-header p {
   margin-bottom: 0;
   color: #6f6f6f;
+}
+
+@media only screen and (max-width: 1023px) and (min-width: 767px) {
+  .header-hero {
+    font-size: 20px;;
+  }
+  
+  .events-h5 {
+    font-size: 18px;
+    font-family: var(--font-default);
+    font-weight: 700;
+  } 
+
+}
+
+@media only screen and (max-width: 766px) {
+
+  .header-hero {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .events-h5 {
+    font-size: 16px;
+ 
+  } 
+
 }
 
 /*--------------------------------------------------------------
@@ -733,14 +781,14 @@ main .custom-shape-divider-top-1665012168 .shape-fill {
 @media (max-width: 520px) {
   .navbar a,
   .navbar a:focus {
-    font-size: 12px;
+    font-size: 16px;
     padding: 3px 40px 3px 15px;
   }
 }
 @media (max-width: 380px) {
   .navbar a,
   .navbar a:focus {
-    font-size: 16px;
+    font-size: 12px;
     padding: 3px 40px 3px 15px;
   }primary
   .navbar .dropdown ul, .navbar .dropdown .dropdown ul {
@@ -992,7 +1040,7 @@ main .custom-shape-divider-top-1665012168 .shape-fill {
 # Clients Section
 --------------------------------------------------------------*/
 .clients {
-  padding: 40px;
+  padding: 60px 30px 30px 30px;
 }
 
 .clients span {
@@ -1031,6 +1079,10 @@ main .custom-shape-divider-top-1665012168 .shape-fill {
 
 .clients .swiper-pagination .swiper-pagination-bullet-active {
   background-color: var(--color-primary);
+}
+
+.clients .section-header {
+  padding-bottom: 20px;
 }
 
 /*--------------------------------------------------------------
@@ -1217,7 +1269,6 @@ main .custom-shape-divider-top-1665012168 .shape-fill {
 
 .services span {
   color: var(--color-secondary);
-  
 }
 
 .about .compassionate-communication li {
@@ -1226,8 +1277,6 @@ main .custom-shape-divider-top-1665012168 .shape-fill {
   font-size: 17px;
 
 }
-
-
 
 .services .service-item .icon {
   width: 48px;
@@ -1291,7 +1340,7 @@ main .custom-shape-divider-top-1665012168 .shape-fill {
 
 @media (max-width: 768px) {
   .services h2 {
-    font-size: 28px;
+    font-size: 26px;
   }
 }
 
@@ -1735,10 +1784,9 @@ main .custom-shape-divider-top-1665012168 .shape-fill {
   margin: 0 2px;
 }
 
-@media (min-width: 1200px) {
-  .team .col-xl-3 {
-    width: 33.33%
-  }
+.team .col-xl-3 {
+  width: 33.33%
+}
 
 /*--------------------------------------------------------------
 # Pricing Section
@@ -3070,4 +3118,16 @@ main .custom-shape-divider-top-1665012168 .shape-fill {
 
 .footer .credits a {
   color: #fff;
+}
+
+@media only screen and (max-width: 1023px) and (min-width: 767px) {
+
+  .footer h4 {
+    font-size: 16px;
+  }
+
+  .footer li {
+    font-size: 13px;
+  }
+  
 }
