@@ -1029,9 +1029,7 @@ main .custom-shape-divider-top-1665012168 .shape-fill {
   
 }
 
-
-
-@media (max-width: 767px) {
+@media (max-width: 767px) and (min-width: 263px) {
   .about #about-pc {
     flex-direction: column-reverse;
     align-items: center;
