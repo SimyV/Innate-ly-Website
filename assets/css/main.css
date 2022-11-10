@@ -785,7 +785,6 @@ main .custom-shape-divider-top-1665012168 .shape-fill {
   .navbar a:focus {
     font-size: 10px;
     padding: 5px 30px 30px 5px;
-    overflow: hidden;
   }
 }
 @media (max-width: 380px) {
@@ -797,7 +796,6 @@ main .custom-shape-divider-top-1665012168 .shape-fill {
   
   .navbar .dropdown ul, .navbar .dropdown .dropdown ul {
     margin: 3px 0px 0px 20px;
-    overflow: hidden;
   }
 }
 
