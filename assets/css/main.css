@@ -1039,6 +1039,11 @@ main .custom-shape-divider-top-1665012168 .shape-fill {
     align-items: center;
   }
 
+  .readmore {
+    margin-right: 5%;
+    padding-right: 5%;
+  }
+
   .about #about-ep {
     flex-direction: column-reverse;
     align-items: center;
