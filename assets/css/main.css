@@ -790,8 +790,8 @@ main .custom-shape-divider-top-1665012168 .shape-fill {
 @media (max-width: 380px) {
   .navbar a,
   .navbar a:focus {
-    font-size: 18px;
-    padding: 3px 30px 80px 15px;
+    font-size: 2px;
+    padding: 3px 30px 30px 15px;
   }
   
   .navbar .dropdown ul, .navbar .dropdown .dropdown ul {
