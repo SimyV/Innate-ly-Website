@@ -780,7 +780,7 @@ main .custom-shape-divider-top-1665012168 .shape-fill {
   }
 }
 
-@media (max-width: 520px) {
+@media (max-width: 920px) {
   .navbar a,
   .navbar a:focus {
     font-size: 10px;
