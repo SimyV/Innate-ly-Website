@@ -796,6 +796,7 @@ main .custom-shape-divider-top-1665012168 .shape-fill {
   
   .navbar .dropdown ul, .navbar .dropdown .dropdown ul {
     margin: 3px 0px 0px 20px;
+    overflow: hidden;
   }
 }
 
