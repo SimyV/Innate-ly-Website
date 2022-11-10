@@ -1033,9 +1033,47 @@ main .custom-shape-divider-top-1665012168 .shape-fill {
 @media (max-width: 767px) {
   .about #about-pc {
     flex-direction: column-reverse;
+    align-items: center;
   }
+
   .about #about-ep {
     flex-direction: column-reverse;
+    align-items: center;
+    margin-top: 10%;
+  }
+
+  .about #about-mc {
+    flex-direction: column-reverse;
+    align-items: center;
+    padding-top: 5%;
+    margin-top: 5%;
+    background-color: rgba(206, 205, 205, 0.127);
+  }
+
+  .about .row {
+    margin: 0%
+  }
+
+  .about .col-md-5 {
+    width: 80%;
+  }
+
+  .about h3 {
+    text-align: center;
+    font-size: 23px;
+    font-family: var(--font-default);
+    padding-bottom: 2%;
+  }
+
+  .about .col-md-7 {
+    width: 60%;
+    padding-bottom: 3%;
+  }
+
+  .about .pillar-padding {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-top: 2%;
   }
 }
 
@@ -1079,14 +1117,11 @@ main .custom-shape-divider-top-1665012168 .shape-fill {
     padding-bottom: 3%;
   }
 
-  
-
   .about .pillar-padding {
     padding-top: 2%;
     padding-bottom: 2%;
     margin-top: 2%;
   }
-
 }
 
 @media (min-width: 1200px) {
