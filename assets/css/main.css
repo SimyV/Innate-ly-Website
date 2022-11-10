@@ -783,7 +783,7 @@ main .custom-shape-divider-top-1665012168 .shape-fill {
 @media (max-width: 520px) {
   .navbar a,
   .navbar a:focus {
-    font-size: 18px;
+    font-size: 1px;
     padding: 3px 40px 3px 15px;
   }
 }
