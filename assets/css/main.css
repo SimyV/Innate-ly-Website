@@ -690,7 +690,7 @@ main .custom-shape-divider-top-1665012168 .shape-fill {
     justify-content: space-between;
     padding: 10px 40px 10px 20px;
     font-family: var(--font-primary);
-    font-size: 15px;
+    font-size: 17px;
     font-weight: 600;
     color: rgba(255, 255, 255, 0.7);
     white-space: nowrap;
@@ -783,18 +783,19 @@ main .custom-shape-divider-top-1665012168 .shape-fill {
 @media (max-width: 520px) {
   .navbar a,
   .navbar a:focus {
-    font-size: 16px;
+    font-size: 18px;
     padding: 3px 40px 3px 15px;
   }
 }
 @media (max-width: 380px) {
   .navbar a,
   .navbar a:focus {
-    font-size: 12px;
+    font-size: 16px;
     padding: 3px 40px 3px 15px;
-  }primary
+  }
+  
   .navbar .dropdown ul, .navbar .dropdown .dropdown ul {
-    margin: 3px 0px 3px 10px;
+    margin: 3px 0px 10px 5px;
   }
 }
 
@@ -811,7 +812,8 @@ main .custom-shape-divider-top-1665012168 .shape-fill {
   font-weight: 700;
   font-size: 28px;
   margin-bottom: 20px;
-  font-family: var(--font-secondary);
+  color: var(--color-secondary);
+  font-family: var(--font-default);
 }
 
 .about .sections-bg-tailor {
@@ -1046,22 +1048,45 @@ main .custom-shape-divider-top-1665012168 .shape-fill {
   .about #about-ep {
     flex-direction: column-reverse;
     align-items: center;
+    margin-top: 10%;
   }
 
   .about #about-mc {
     flex-direction: column-reverse;
     align-items: center;
+    padding-top: 5%;
+    margin-top: 5%;
+    background-color: rgba(206, 205, 205, 0.127);
+  }
+
+  .about .row {
+    margin: 0%
   }
 
   .about .col-md-5 {
-    width: 90%;
+    width: 80%;
+  }
+
+  .about h3 {
+    text-align: center;
+    font-size: 30px;
+    font-family: var(--font-default);
+    padding-bottom: 2%;
   }
 
   .about .col-md-7 {
     width: 60%;
     padding-bottom: 3%;
-
   }
+
+  
+
+  .about .pillar-padding {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-top: 2%;
+  }
+
 }
 
 @media (min-width: 1200px) {
