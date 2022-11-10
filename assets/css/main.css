@@ -1029,6 +1029,12 @@ main .custom-shape-divider-top-1665012168 .shape-fill {
   
 }
 
+@media (max-width: 258px) {
+  .about .pillar-padding {
+    font-size: 13px;
+  }
+}
+
 @media (max-width: 767px) {
   .about #about-pc {
     flex-direction: column-reverse;
