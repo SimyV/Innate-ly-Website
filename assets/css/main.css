@@ -1058,7 +1058,9 @@ main .custom-shape-divider-top-1665012168 .shape-fill {
   }
 
   .about .col-md-7 {
-    width: 80%;
+    width: 60%;
+    padding-bottom: 3%;
+
   }
 }
 
