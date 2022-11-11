@@ -1983,6 +1983,23 @@ main .custom-shape-divider-top-1665012168 .shape-fill {
   width: 33.33%
 }
 
+@media (max-width: 991px) {
+  .team .team-responsive {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .team .team-responsive-sizing {
+    width: 70%;
+  }
+}
+
+@media (max-width: 767px) {
+  .team .team-responsive-sizing {
+    width: 90%;
+  }
+}
+
 /*--------------------------------------------------------------
 # Pricing Section
 --------------------------------------------------------------*/
