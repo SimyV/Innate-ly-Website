@@ -88,13 +88,53 @@ section {
 }
 
 .services .product-img {
-  box-shadow: 0px 0 20px rgb(0 0 0 / 50%)
+  margin-bottom: 0px !important;
 }
 
-.services .product-img:hover {
-  box-shadow:  0px 0 25px rgb(0 0 0 / 80%);
+.services .product-hover {
+  box-shadow: 0px 0 8px rgb(0 0 0 / 20%);
+  background-color: #FFF;
+  padding: 0 0 0 0;
+  margin-right: 3%;
+  border-radius: 5%;
+  width: 20%
+}
+
+.services .product-hover:hover {
+  box-shadow:  0px 0 20px rgb(0 0 0 / 70%);
   transition: all 0.2s ease-in;
 }
+
+.services .product-meta {
+  padding: 6%;
+}
+
+.services .product-meta h7, p {
+ font-size: 14px;
+ font-family: var(--font-default);
+ font-weight: 600;
+}
+
+.services .product-meta h7 {
+  color: var(--color-default);
+ }
+
+ .services .product-meta .price-p {
+  color: var(--color-secondary);
+  padding-top: 6%;
+  margin-bottom: 0;
+ }
+
+ .services .product-meta span {
+  font-weight: 400;
+ }
+
+ .services .product-meta .time-p {
+  color: var(--color-secondary);
+  padding-top: 3%;
+  margin-bottom: 0;
+ }
+
 
 
 .section-header .events-h2,
