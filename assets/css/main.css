@@ -62,6 +62,7 @@ p {
 body .dark-p {
   font-family: var(--font-default);
   color: #fff;
+  font-weight: 400;
 }
 
 
