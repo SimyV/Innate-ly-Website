@@ -1987,6 +1987,10 @@ main .custom-shape-divider-top-1665012168 .shape-fill {
     align-items: center;
   }
 
+  .about .re-render-imagery {
+    flex-direction: column-reverse;
+  }
+
   .team .team-responsive-sizing {
     width: 70%;
   }
