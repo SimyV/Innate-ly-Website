@@ -3511,10 +3511,22 @@ section {
   padding-bottom: 0;
 }
 
+.contact-section {
+  min-height: 300px;
+  display: flex;
+  width: auto 0;
+  background: #B6DCE1;
+}
+
+.contact-section-bg-upper {
+  background: var(--color-default);
+  min-height: 20px;
+}
+
 .contact-section .new-container {
   position: relative;
   z-index: 1;
-  width: 85%;
+  width: 100%;
   max-width: 1500px;
   margin-left: auto;
   margin-right: auto;
@@ -3582,19 +3594,6 @@ section {
   display: block;
 }
 
-.contact-section-bg-upper {
-  background: var(--color-secondary);
-  min-height: 20px;
-}
-
-.contact-section {
-  min-height: 300px;
-  display: flex;
-  width: auto 0;
-  background: #B6DCE1;
-
-}
-
 .contact-section .contact-btn {
   background: var(--color-default);
   padding-top: 1.5%;
@@ -3604,7 +3603,7 @@ section {
 
 .contact-section .contact-header {
   color: var(--color-primary);
-  font-weight: 700;
+  font-weight: 500;
   font-size: 26px;
   position: relative;
   padding-left: 10%;
