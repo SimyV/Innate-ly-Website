@@ -102,13 +102,13 @@ body .dark-p {
 .splash-logo.active {
   bottom: 0;
   opacity: 1;
-  transition: ease-in-out 0.5s;
+  transition: ease-in-out 0.8s;
 }
 
 .splash-logo.fade {
   bottom: 150px;
   opacity: 0;
-  transition: ease-in-out 0.5s;
+  transition: ease-in-out 0.8s;
 }
 
 /*--------------------------------------------------------------
@@ -3497,6 +3497,192 @@ main .custom-shape-divider-top-1665012168 .shape-fill {
   padding-top: 20px !important;
   padding-bottom: 0px !important;
 }
+
+
+/*--------------------------------------------------------------
+# Contact Us
+--------------------------------------------------------------*/
+
+section {
+  padding-bottom: 0;
+}
+
+.contact-section .new-container {
+  position: relative;
+  z-index: 1;
+  width: 85%;
+  max-width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #B6DCE1;
+}
+
+.contact-section .pillar-padding {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin-top: 2%;
+}
+
+.contact-section .btn-get-started {
+  font-family: var(--font-primary);
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 40px 8px 40px;
+  border-radius: 5px;
+  transition: 0.3s;
+  color: #fff;
+  background: var(--color-primary);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.08);
+}
+
+.contact-section  .btn-get-started:hover {
+  border-color: rgba(255, 255, 255, 0.5);
+  background-color: #ff7746;
+}
+
+.contact-section  .btn-get-started-product {
+  font-family: var(--font-primary);
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 20px 8px 20px;
+  margin: 60px 0px 10px 0px;
+  border-radius: 5px;
+  transition: 0.3s;
+  color: #fff;
+  background: var(--color-primary);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.08);
+}
+
+.contact-section  .btn-get-started-product:hover {
+  border-color: rgba(255, 255, 255, 0.5);
+  background-color: #ff7746;
+}
+
+.contact-section .row-cta {
+  display: flex;
+  align-items: center;
+}
+
+.contact-section .cta-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.contact-section .cta-content-wrapper {
+  margin-bottom: 0;
+  box-sizing: border-box;
+  display: block;
+}
+
+.contact-section-bg-upper {
+  background: var(--color-secondary);
+  min-height: 20px;
+}
+
+.contact-section {
+  min-height: 300px;
+  display: flex;
+  width: auto 0;
+  background: #B6DCE1;
+
+}
+
+.contact-section .contact-btn {
+  background: var(--color-default);
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
+  text-align: center;
+}
+
+.contact-section .contact-header {
+  color: var(--color-primary);
+  font-weight: 700;
+  font-size: 26px;
+  position: relative;
+  padding-left: 10%;
+  padding-right: 15%;
+}
+
+.contact-section .contact-text {
+  color: var(--color-secondary);
+  font-weight: 500;
+  padding-left: 10%;
+  padding-top: 1%;
+  text-align: left;
+  font-size: 20px;
+}
+
+@media (max-width: 938px) and (min-width: 855px) {
+  .contact-section .contact-header {
+    font-size: 22px;
+  }
+
+  .contact-section .contact-text {
+    font-size: 18px;
+  }
+
+  .contact-section .contact-btn {
+    padding-top: 1%;
+    padding-bottom: 1%;
+  }
+}
+
+@media (max-width: 854px) and (min-width: 400px) {
+  .contact-section .contact-header {
+    font-size: 16px;
+  }
+
+  .contact-section .contact-img-item {
+    width: 20%;
+    padding-left: 0%;
+  }
+
+  .contact-section .new-container {
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .contact-section .contact-text {
+    font-size: 14px;
+  }
+
+  .contact-section .contact-btn {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 400px) {
+  .contact-section .contact-header {
+    font-size: 16px;
+  }
+
+  .contact-section .contact-img-item {
+    width: 20%;
+    padding-left: 0%;
+  }
+
+  .contact-section .new-container {
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .contact-section .contact-text {
+    font-size: 14px;
+  }
+
+  .contact-section .contact-btn {
+    font-size: 12px;
+  }
+}
+
 
 /*--------------------------------------------------------------
 # Footer
