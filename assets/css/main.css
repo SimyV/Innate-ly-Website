@@ -1280,6 +1280,40 @@ main .custom-shape-divider-top-1665012168 .shape-fill {
   padding-bottom: 5%;
 }
 
+@media (max-width:1403px) and (min-width: 1024px){
+  .clients .tidy-up-brand {
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 4%;
+  }
+}
+
+@media (max-width:1023px) and (min-width: 814px){
+  .clients .tidy-up-brand {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 4%;
+  }
+}
+
+@media (max-width: 813px) and (min-width: 443px){
+  .clients .tidy-up-brand {
+    
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-bottom: 6%;
+  }
+}
+
+@media (max-width: 442px) {
+  .clients .tidy-up-brand {
+    font-size: 28px;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-bottom: 6%;
+  }
+}
+
 /*--------------------------------------------------------------
 # Stats Counter Section
 --------------------------------------------------------------*/
