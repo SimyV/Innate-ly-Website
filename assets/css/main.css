@@ -1319,6 +1319,10 @@ main .custom-shape-divider-top-1665012168 .shape-fill {
     padding-right: 0%;
     padding-bottom: 6%;
   }
+
+  .client .img-sizing {
+    width: 120px;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -1823,7 +1827,7 @@ main .custom-shape-divider-top-1665012168 .shape-fill {
   }
 
   .testimonials .testimonial-item {
-    padding: 30px;
+    padding: 30px 0px 30px 0px;
     margin: 15px;
   }
 
@@ -1838,6 +1842,7 @@ main .custom-shape-divider-top-1665012168 .shape-fill {
 
   .testimonials .testimonial-font {
     font-size: 20px;
+    font-weight: 500;
   }
 
   .testimonial-name {
@@ -1859,8 +1864,8 @@ main .custom-shape-divider-top-1665012168 .shape-fill {
   }
 
   .testimonials .testimonial-item {
-    padding: 30px;
-    margin: 15px;
+    padding: 30px 0px 30px 0px;
+    margin: 15px 0px 15px 0px;
   }
 
   .testimonials .testimonial-font {
@@ -1874,6 +1879,7 @@ main .custom-shape-divider-top-1665012168 .shape-fill {
 
   .testimonials .testimonial-font {
     font-size: 18px;
+    font-weight: 500;
   }
 
   .testimonial-name {
