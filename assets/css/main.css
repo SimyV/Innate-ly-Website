@@ -876,6 +876,10 @@ main .custom-shape-divider-top-1665012168 .shape-fill {
   padding-bottom: 40px !important;
 }
 
+.about .about-pillar-3 {
+  padding-bottom: 40px !important;
+}
+
 .padding-about {
   padding-top: 0%;
   padding-bottom: 0%;
@@ -1263,6 +1267,19 @@ main .custom-shape-divider-top-1665012168 .shape-fill {
   padding-bottom: 20px;
 }
 
+.clients .tidy-up-brand {
+  padding-left: 25%;
+  padding-right: 25%;
+  color: var(--color-default);
+  padding-bottom: 2%;
+}
+
+.client-bg {
+  background-color: #F7F1E8;
+  padding-top: 2%;
+  padding-bottom: 5%;
+}
+
 /*--------------------------------------------------------------
 # Stats Counter Section
 --------------------------------------------------------------*/
@@ -1430,7 +1447,8 @@ main .custom-shape-divider-top-1665012168 .shape-fill {
 # Our Services Section
 --------------------------------------------------------------*/
 .services {
-  padding: 40px 0;
+  padding-top: 50px;
+  padding-bottom: 100px;
 }
 
 .services .tailored-solution {
@@ -1529,6 +1547,10 @@ main .custom-shape-divider-top-1665012168 .shape-fill {
   font-weight: 400;
   font-size: 18px;
   line-height: 25px;
+}
+
+.guidance-bg {
+  background-color: #f6f6f6;
 }
 
 @media (max-width: 1200px) and  (min-width: 1000px) {
