@@ -2605,6 +2605,10 @@ main .custom-shape-divider-top-1665012168 .shape-fill {
 /*--------------------------------------------------------------
 # Contact Section
 --------------------------------------------------------------*/
+.contact {
+  padding-bottom: 10%;
+}
+
 .contact .info-container {
   background-color: var(--color-primary);
   height: 100%;
