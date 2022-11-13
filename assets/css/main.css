@@ -874,6 +874,7 @@ main .custom-shape-divider-top-1665012168 .shape-fill {
 
 .about .gifts-bg-tailor {
   background: rgba(226, 222, 222, 0.153);
+  padding-top: 1%;
 }
 
 .about .about-pillar-1 {
@@ -889,7 +890,12 @@ main .custom-shape-divider-top-1665012168 .shape-fill {
 }
 
 .padding-about {
-  padding-top: 0%;
+  padding-top: 5%;
+  padding-bottom: 0%;
+}
+
+.padding-about-tailor {
+  padding-top: 8%;
   padding-bottom: 0%;
 }
 
@@ -949,8 +955,14 @@ main .custom-shape-divider-top-1665012168 .shape-fill {
 }
 
 .about-gap {
-  padding-top: 0px;
+  padding-top: 5%;
   padding-bottom: 0px;
+}
+
+.about .compassion-bg {
+  background: var(--color-default);
+  padding-bottom: 2%;
+  padding-top: 1%;
 }
 
 .about .content ul {
@@ -1052,6 +1064,10 @@ main .custom-shape-divider-top-1665012168 .shape-fill {
   color:#2c2c2cbb;
 }
 
+.about .font-weight-dark {
+  font-weight: 300;
+}
+
 .about .btn-get-started {
   font-family: var(--font-primary);
   font-weight: 500;
@@ -1107,6 +1123,9 @@ main .custom-shape-divider-top-1665012168 .shape-fill {
   .about li {
     font: size 14px;
   }
+  .about .font-weight {
+    font-weight: 300;
+  }
   
 }
 
@@ -1117,7 +1136,7 @@ main .custom-shape-divider-top-1665012168 .shape-fill {
   }
 
   .about .font-weight {
-    font-weight: 400;
+    font-weight: 300;
   }
 
   .readmore {
@@ -1586,12 +1605,25 @@ main .custom-shape-divider-top-1665012168 .shape-fill {
   border-color: var(--color-primary);
 }
 
-.about .product-descriptions {
+.about .product-descriptions-dark {
   font-family: var(--font-default);
-  color: #2c2c2cbb;
+  color: #ffffff;
   font-weight: 400;
   font-size: 18px;
   line-height: 25px;
+}
+
+
+.about .product-descriptions {
+  font-family: var(--font-default);
+  color: #504949ca;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.about .compassion-color {
+  color: #ffffff;
 }
 
 .guidance-bg {
