@@ -2479,6 +2479,10 @@ main .custom-shape-divider-top-1665012168 .shape-fill {
 /*--------------------------------------------------------------
 # Frequently Asked Questions Section
 --------------------------------------------------------------*/
+.faq {
+  padding-bottom: 3%;
+}
+
 .faq .content h3 {
   font-weight: 400;
   font-size: 34px;
@@ -3523,10 +3527,10 @@ section {
   background: #B6DCE1;
 }
 
-.contact-section-bg-upper {
+/* .contact-section-bg-upper {
   background: var(--color-default);
   min-height: 20px;
-}
+} */
 
 .contact-section .new-container {
   position: relative;
@@ -3653,9 +3657,9 @@ section {
     padding-right: 10%;
   }
 
-  .contact-section-bg-upper {
+  /* .contact-section-bg-upper {
     height: 35px;
-  }
+  } */
 
   .contact-section .contact-img-item {
     width: 30%;
@@ -3703,9 +3707,9 @@ section {
     padding-right: 10%;
   }
 
-  .contact-section-bg-upper {
+  /* .contact-section-bg-upper {
     height: 25px;
-  }
+  } */
 
   .contact-section .contact-img-item {
     width: 40%;
