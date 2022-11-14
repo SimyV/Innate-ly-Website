@@ -2240,6 +2240,11 @@ main .custom-shape-divider-top-1665012168 .shape-fill {
   box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.1);
 }
 
+.team {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
 .team span {
   color: var(--color-secondary);
 }
