@@ -487,6 +487,10 @@ section {
   background-color: var(--color-primary);
 }
 
+.header .contact-us-color-nav {
+  color: #FFF;
+}
+
 .header.sticked {
   position: fixed;
   top: 0;
@@ -636,7 +640,7 @@ main .custom-shape-divider-top-1665012168 .shape-fill {
 
   .navbar>ul>li {
     white-space: nowrap;
-    padding: 10px 0 10px 28px;
+    padding: 10px 28px 10px 28px;
   }
 
   .navbar a,
