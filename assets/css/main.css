@@ -925,7 +925,7 @@ main .custom-shape-divider-top-1665012168 .shape-fill {
 }
 
 .quote-title {
-  color: var(--color-default)!important;
+  color: var(--color-primary)!important;
   font-weight: 700;
 }
 
@@ -957,6 +957,11 @@ main .custom-shape-divider-top-1665012168 .shape-fill {
 
 .about .tailor-color {
   color: #fff;
+}
+
+.quotes {
+  color: var(--color-primary);
+  font-weight: 450;
 }
 
 .big-quotes {
@@ -1170,7 +1175,7 @@ main .custom-shape-divider-top-1665012168 .shape-fill {
 }
 
 .new-quote-icon-left {
-  color: var(--color-secondary);
+  color: var(--color-primary);
 }
 
 .btn-get-started-dark {
