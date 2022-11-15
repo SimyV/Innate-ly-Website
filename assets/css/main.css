@@ -919,6 +919,11 @@ main .custom-shape-divider-top-1665012168 .shape-fill {
   font-family: var(--font-primary);
 }
 
+.testimonial-name-sig {
+  width: 50%;
+  padding-top: 1.5%;
+}
+
 .about .sections-bg-tailor {
   background: var(--color-secondary)
 }
