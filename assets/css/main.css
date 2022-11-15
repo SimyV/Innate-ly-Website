@@ -1720,6 +1720,12 @@ main .custom-shape-divider-top-1665012168 .shape-fill {
   background: #00b6a1;
 }
 
+.services .help-support-p {
+  font-family: var(--font-primary);
+  padding-top: 1%;
+  font-size: 16px;
+}
+
 .services .service-item:hover h3 {
   border-color: var(--color-primary);
 }
@@ -1773,6 +1779,12 @@ main .custom-shape-divider-top-1665012168 .shape-fill {
     margin: 0 4% 5% 0
   }
 
+  .services .help-support-p {
+    padding-top: 2%;
+    font-size: 15px;
+    font-weight: 400;
+  }
+
   .services .col-md-6-new {
     flex: 0 0 auto;
     width: 50%;
@@ -1793,6 +1805,12 @@ main .custom-shape-divider-top-1665012168 .shape-fill {
 
   .about .product-descriptions {
     font-size: 100%;
+  }
+
+  .services .help-support-p {
+    padding-top: 2%;
+    font-size: 15px;
+    font-weight: 400;
   }
 
 }
