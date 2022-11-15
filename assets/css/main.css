@@ -115,6 +115,22 @@ body .dark-p {
 }
 
 /*--------------------------------------------------------------
+# Blob (MVP2)
+--------------------------------------------------------------*/
+/* .flip {
+  transform: rotate(180deg);
+}
+
+.blob-motion {
+  position: absolute;
+  transform: translate(-20%);
+}
+
+.spacer {
+  overflow: hidden;
+} */
+
+/*--------------------------------------------------------------
 # Sections & Section Header
 --------------------------------------------------------------*/
 section {
@@ -1736,6 +1752,10 @@ main .custom-shape-divider-top-1665012168 .shape-fill {
   font-weight: 400;
   font-size: 18px;
   line-height: 25px;
+}
+
+.support-people {
+  padding-top: 0;
 }
 
 
