@@ -1750,16 +1750,24 @@ main .custom-shape-divider-top-1665012168 .shape-fill {
     width: 200px;
   }
 
+  .col-md-6-new {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+
 }
 
-@media (max-width: 991px) and  (min-width: 768px) {
+@media (max-width: 1000px) and  (min-width: 768px) {
 
   .services .product-hover {
     width: 45%;
     margin: 0 4% 5% 0
   }
 
- 
+  .services .col-md-6-new {
+    flex: 0 0 auto;
+    width: 50%;
+  }
 
   .services .product-row {
     margin-left: 0;
