@@ -10,6 +10,9 @@
   --color-default: #002A3A;
   --color-primary: #0A5456;
   --color-secondary: #FF5F25;
+  --color-third: #F7F1E8;
+  --color-fourth: #B6DCE1;
+  --color-fifth: #6BCEB6;
 }
 
 /* Smooth scroll behavior */
@@ -31,7 +34,7 @@ a {
 }
 
 a:hover {
-  color: #6BCEB6;
+  color: var(--color-fifth);
   text-decoration: none;
 }
 
@@ -913,8 +916,7 @@ main .custom-shape-divider-top-1665012168 .shape-fill {
 }
 
 .about .sections-bg-tailor {
-  background: rgb(80, 86, 10);
-  background: radial-gradient(circle, rgba(10,84,86,1) 0%, rgba(10,84,86,1) 50%, rgba(10,84,86,0.8183648459383753) 100%);
+  background: var(--color-secondary)
 }
 
 .about .gifts-bg-tailor {
@@ -3589,11 +3591,6 @@ section {
   width: auto 0;
   background: #B6DCE1;
 }
-
-/* .contact-section-bg-upper {
-  background: var(--color-default);
-  min-height: 20px;
-} */
 
 .contact-section .new-container {
   position: relative;
