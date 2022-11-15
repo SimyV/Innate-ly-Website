@@ -2696,6 +2696,10 @@ main .custom-shape-divider-top-1665012168 .shape-fill {
   padding-bottom: 10%;
 }
 
+.contact-padding {
+  padding: 3%;
+}
+
 .contact .info-container {
   background-color: var(--color-primary);
   height: 100%;
