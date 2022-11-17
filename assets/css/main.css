@@ -944,6 +944,39 @@ main .custom-shape-divider-top-1665012168 .shape-fill {
   padding-top: 1%;
 }
 
+.about .new-ul {
+  text-align: left;
+  margin-top: 2%;
+  margin-left: 9%;
+  margin-right: 9%;
+}
+
+.about .sig-gift {
+  margin-left: 9%;
+  margin-right: 9%;
+}
+
+.about .mtp {
+  padding-top: 4%;
+  padding-bottom: 4%;
+  font-family: var(--font-primary);
+}
+
+.about .mtp-font {
+  font-family: var(--font-primary);
+  font-weight: 500;
+}
+
+.about .meta-top {
+  padding-top: 0;
+  font-family: var(--font-primary);
+}
+
+.about .story {
+  padding-bottom: 0% !important;
+  font-family: var(--font-primary);
+}
+
 .quote-title {
   color: var(--color-primary)!important;
   font-weight: 700;
@@ -2363,7 +2396,7 @@ main .custom-shape-divider-top-1665012168 .shape-fill {
 }
 
 .team {
-  padding-top: 5%;
+  padding-top: 1%;
   padding-bottom: 5%;
 }
 
