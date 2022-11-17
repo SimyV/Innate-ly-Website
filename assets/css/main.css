@@ -2396,8 +2396,8 @@ main .custom-shape-divider-top-1665012168 .shape-fill {
 }
 
 .team {
-  padding-top: 1%;
-  padding-bottom: 5%;
+  padding-top: 3%;
+  padding-bottom: 3%;
 }
 
 .team span {
@@ -2423,7 +2423,7 @@ main .custom-shape-divider-top-1665012168 .shape-fill {
 .team .member span {
   font-style: italic;
   display: block;
-  font-size: 14px;
+  font-size: 16px;
   color: #6c757d;
 }
 
