@@ -3681,32 +3681,26 @@ main .custom-shape-divider-top-1665012168 .shape-fill {
 }
 
 .store .card {
-  min-height: 36em;
+  min-height: 30vw;
 }
 
 .store .btn-black {
   color: var(--color-primary);
   border-color: var(--color-primary);
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.8);
-  padding-left: 2%;
-  padding-right: 2%;
+
 }
 
 .store .btn-pillar {
   color: var(--color-secondary);
   border-color: var(--color-secondary);
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.8);
-  padding-left: 2%;
-  padding-right: 2%;
+
 }
 
 .store .btn-all {
   color: #fff;
   border-color: var(--color-default);
   background: var(--color-default);
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.8);
-  padding-left: 2%;
-  padding-right: 2%;
+
 }
 
 .store .btn-black:hover {
