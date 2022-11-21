@@ -3680,6 +3680,10 @@ main .custom-shape-divider-top-1665012168 .shape-fill {
   background: #6f6f6f1c;
 }
 
+.store .card {
+  min-height: 36em;
+}
+
 .store .btn-black {
   color: var(--color-primary);
   border-color: var(--color-primary);
