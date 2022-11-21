@@ -3673,6 +3673,78 @@ main .custom-shape-divider-top-1665012168 .shape-fill {
 
 
 /*--------------------------------------------------------------
+# Our Store Section
+--------------------------------------------------------------*/
+
+.store {
+  background: #6f6f6f1c;
+}
+
+.store .btn-black {
+  color: var(--color-primary);
+  border-color: var(--color-primary);
+}
+
+.store .btn-pillar {
+  color: var(--color-secondary);
+  border-color: var(--color-secondary);
+}
+
+.store .btn-black:hover {
+  color: #FFF;
+  border-color: var(--color-primary);
+  background: var(--color-primary);
+}
+
+.store .btn-pillar:hover {
+  color: #FFF;
+  border-color: var(--color-default);
+  background: var(--color-default);
+}
+
+.store .search-box {
+  background: var(--color-primary);
+  color: #FFF;
+}
+
+.store .img-container {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.store .img-container:hover .store-item-icon {
+  transform:translate(0,0)
+}
+
+.store .store-item-icon:hover {
+  color: var(--color-secondary);
+}
+
+.store .store-img {
+  transition: all .5s ease-in-out;
+}
+
+.store .img-container:hover .store-img {
+  transform: scale(1.05);
+}
+
+.store .store-item-icon {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 0.75rem;
+  background: var(--color-third);
+  border-top-left-radius: 1rem;
+  transition: all .5s ease-in-out;
+  transform: translate(100%, 100%)
+}
+
+.store .store-item-value {
+  color: var(--color-secondary);
+}
+
+/*--------------------------------------------------------------
 # Contact Us
 --------------------------------------------------------------*/
 
