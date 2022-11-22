@@ -350,6 +350,4 @@ document.addEventListener('DOMContentLoaded', () => {
         });
       })
     })
-
-
   })();

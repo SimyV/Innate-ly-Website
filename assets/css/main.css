@@ -3704,14 +3704,14 @@ main .custom-shape-divider-top-1665012168 .shape-fill {
 
 .store .btn-black:hover {
   color: #FFF;
-  border-color: var(--color-primary);
-  background: var(--color-primary);
+  border-color: var(--color-secondary);
+  background: var(--color-secondary);
 }
 
 .store .btn-pillar:hover {
   color: #FFF;
-  border-color: var(--color-default);
-  background: var(--color-default);
+  border-color: var(--color-secondary);
+  background: var(--color-secondary);
 }
 
 .store .btn-all:hover {
@@ -3762,6 +3762,120 @@ main .custom-shape-divider-top-1665012168 .shape-fill {
 .store .store-item-value {
   color: var(--color-secondary);
 }
+
+.store .filter, .chevron-store {
+  color: var(--color-primary)!important;
+}
+
+.dropdown-store {
+    padding: 0;
+  }
+
+  .dropdown-store ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    align-items: center;
+  }
+
+  .dropdown-store li {
+    position: relative;
+    
+  }
+
+  .dropdown-store>ul>li {
+    white-space: nowrap;
+    
+  }
+
+  .dropdown-store a,
+  .dropdown-store a:focus {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3px;
+    font-family: var(--font-secondary);
+    font-size: 16px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.6);
+    white-space: nowrap;
+    transition: 0.3s;
+    position: relative;
+  }
+
+  .dropdown-store a i,
+  .dropdown-store a:focus i {
+    font-size: 12px;
+    line-height: 0;
+    margin-left: 5px;
+  }
+
+  .dropdown-store a:hover:before,
+  .dropdown-store li:hover>a:before,
+  .dropdown-store .active:before {
+    visibility: visible;
+    width: 100%;
+  }
+
+  .dropdown-store a:hover,
+  .dropdown-store .active,
+  .dropdown-store .active:focus,
+  .dropdown-store li:hover>a {
+    color: #fff;
+  }
+
+  .dropdown-store .dropdown ul {
+    display: block;
+    position: absolute;
+    left: -28px;
+    top: calc(100% + 30px);
+    margin: 0;
+    padding: 10px 0;
+    z-index: 99;
+    opacity: 0;
+    visibility: hidden;
+    background: #fff;
+    box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+    transition: 0.3s;
+    border-radius: 4px;
+  }
+
+  .dropdown-store .dropdown ul li {
+    min-width: 200px;
+  }
+
+  .dropdown-store .dropdown ul a {
+    padding: 10px 20px;
+    font-size: 15px;
+    text-transform: none;
+    font-weight: 600;
+    color: #006a5d;
+  }
+
+  .dropdown-store .dropdown ul a i {
+    font-size: 12px;
+  }
+
+  .dropdown-store .dropdown:hover>ul {
+    opacity: 1;
+    top: 100%;
+    visibility: visible;
+  }
+
+  .dropdown-store .dropdown .dropdown ul {
+    top: 0;
+    left: -200%;
+    visibility: hidden;
+  }
+
+  .dropdown-store .dropdown .dropdown:hover>ul {
+    opacity: 1;
+    top: 0;
+    left: -150%;
+    visibility: visible;
+  }
+
 
 /*--------------------------------------------------------------
 # Contact Us
@@ -3975,6 +4089,8 @@ section {
     margin-bottom: 5%;
   }
 }
+
+
 
 
 /*--------------------------------------------------------------
