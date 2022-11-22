@@ -3876,6 +3876,10 @@ main .custom-shape-divider-top-1665012168 .shape-fill {
     visibility: visible;
   }
 
+  .store .btn-outline-secondary {
+    background-color: var(--color-third);
+  }
+
 
 /*--------------------------------------------------------------
 # Contact Us
