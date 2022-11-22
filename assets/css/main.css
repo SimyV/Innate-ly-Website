@@ -3746,6 +3746,8 @@ main .custom-shape-divider-top-1665012168 .shape-fill {
 
 .store .store-img {
   transition: all .5s ease-in-out;
+  max-width: 416px;
+  max-height: 312px;
 }
 
 .store .img-container:hover .store-img {
