@@ -150,6 +150,10 @@ section {
   margin: 0;
 }
 
+.link-design {
+  color:var(--color-secondary);
+}
+
 .services .product-img {
   margin-bottom: 0px !important;
 }
