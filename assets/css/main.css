@@ -1088,7 +1088,7 @@ main .custom-shape-divider-top-1665012168 .shape-fill {
 }
 
 .about-gap {
-  padding-top: 5%;
+  padding-top: 3%;
   padding-bottom: 0px;
 }
 
@@ -1336,6 +1336,8 @@ main .custom-shape-divider-top-1665012168 .shape-fill {
     padding-top: 0px !important;
   }
 
+ 
+
   .about .col-md-7 {
     width: 100%;
     padding-bottom: 3%;
@@ -1346,6 +1348,7 @@ main .custom-shape-divider-top-1665012168 .shape-fill {
     padding-bottom: 2%;
     margin-top: 2%;
   }
+  
 }
 
 @media (max-width: 1200px) and (min-width: 768px) {
@@ -1470,6 +1473,11 @@ main .custom-shape-divider-top-1665012168 .shape-fill {
     padding-right: 15%;
     padding-bottom: 4%;
   }
+
+  .big-quotes {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
 }
 
 @media (max-width:1023px) and (min-width: 814px){
@@ -1478,6 +1486,11 @@ main .custom-shape-divider-top-1665012168 .shape-fill {
     padding-right: 5%;
     padding-bottom: 4%;
   }
+
+  .big-quotes {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
 }
 
 @media (max-width: 813px) and (min-width: 443px){
@@ -1485,6 +1498,26 @@ main .custom-shape-divider-top-1665012168 .shape-fill {
     padding-left: 0%;
     padding-right: 0%;
     padding-bottom: 6%;
+  }
+
+  .big-quotes {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .strategies-pad {
+    padding-left: 5%!important;
+    padding-right: 5%;
+  }
+
+  .compassion-gap {
+    padding-left: 1%!important;
+    padding-right: 1%!important;
+  }
+
+  .about .product-descriptions {
+    font-size: 16px!important;
+    font-weight: 500;
   }
 }
 
@@ -1496,9 +1529,36 @@ main .custom-shape-divider-top-1665012168 .shape-fill {
     padding-bottom: 6%;
   }
 
+  .compassion-gap {
+    padding-left: 1%!important;
+    padding-right: 1%!important;
+  }
+
+  .about .product-descriptions {
+    font-size: 15px!important;
+    font-weight: 500;
+  }
+
+  .strategies-pad {
+    padding-left: 5%!important;
+    padding-right: 5%;
+  }
+
   .client .img-sizing {
     width: 120px;
   }
+
+  .big-quotes {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .tailored-solution-gap {
+    padding-left: 1%!important;
+    padding-right: 1%;
+  }
+
+  
 }
 
 /*--------------------------------------------------------------
@@ -1778,13 +1838,17 @@ main .custom-shape-divider-top-1665012168 .shape-fill {
   font-size: 16px;
 }
 
+.compassion-color-header {
+  color: var(--color-secondary);
+}
+
 .services .service-item:hover h3 {
   border-color: var(--color-primary);
 }
 
 .about .product-descriptions-dark {
   font-family: var(--font-primary);
-  font-weight: 400;
+  font-weight: 500;
   font-size: 18px;
   line-height: 25px;
 }
@@ -1797,7 +1861,7 @@ main .custom-shape-divider-top-1665012168 .shape-fill {
 .about .product-descriptions {
   font-family: var(--font-primary);
   color: #504949ca;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 18px;
   line-height: 25px;
 }
@@ -3448,6 +3512,10 @@ main .custom-shape-divider-top-1665012168 .shape-fill {
   transition: 0.3s;
   border-radius: 50px;
   line-height: 0;
+}
+
+.about .philosophy-padding {
+  padding-top: 2%!important;
 }
 
 .blog .sidebar .search-form form button i {
